@@ -136,9 +136,16 @@ html{
 }
 
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 768px) {
     html{
-        font-size: 10px;
+        font-size: 8px;
+    }
+    #header #img1{
+        top: 2vh;
+        width: 10vw;
+    }
+    #header #img2{
+        top: 10vh;
     }
     #boxImg{
         width: 75%;
@@ -153,7 +160,6 @@ html{
     }
     #container2 #box{
         justify-content: center;
-        flex-direction: column;
         width: 37%;
     }
     #boxImg2, #boxImg3{
@@ -168,3 +174,4 @@ html{
         margin-right: 10vw;
     }
 }
+
