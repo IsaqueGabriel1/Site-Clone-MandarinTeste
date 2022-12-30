@@ -153,11 +153,12 @@ html{
     }
     #container2 #box{
         justify-content: center;
+        flex-direction: column;
         width: 37%;
     }
     #boxImg2, #boxImg3{
         width: 100%;
-        height: 25vh;
+        height: 13vh;
     }
     #header #img1{
         width: 35vw;
