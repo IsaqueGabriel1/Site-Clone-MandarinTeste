@@ -112,7 +112,7 @@ html{
 
 @media only screen and (max-width: 1024px) {
     html{
-        font-size: 16px;
+        font-size: 14px;
     }
     #boxImg{
         width: 75%;
@@ -130,7 +130,7 @@ html{
     }
     #boxImg2, #boxImg3{
         width: 100%;
-        height: 18vh;
+        height: 27vh;
     }
     #header #img1{
         width: 35vw;
@@ -172,7 +172,7 @@ html{
     }
     #boxImg2, #boxImg3{
         width: 100%;
-        height: 14vh;
+        height: 20vh;
     }
     #header #img1{
         width: 35vw;
@@ -217,6 +217,9 @@ html{
     #boxImg2, #boxImg3{
         width: 100%;
         height: 15vh;
+    }
+    #container3 img{
+        width: 50vw;
     }
 }
 
