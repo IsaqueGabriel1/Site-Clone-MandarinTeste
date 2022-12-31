@@ -7,6 +7,7 @@
 html{
     font-size: 8px;
 }
+
 #header{
     background: linear-gradient(to right, #e9492a, rgb(255, 0, 119));
     height: 15vh;
@@ -72,7 +73,7 @@ html{
     flex-direction: column;
     background: white;
     width: 25%;
-    height: 45vh;
+    
     margin: 10px;
 }
 #boxImg2{
@@ -191,10 +192,16 @@ html{
 
 @media only screen and (max-width: 375px){
     html{
-        font-size: 8px;
+        font-size: 6px;
     }
     #conteudo2, #conteudo3{
         font-size: 1rem;
+    }
+    #container2 #box{
+        margin-bottom: 55px;
+    }
+    #boxImg2, #boxImg3{
+        height: 20vh;
     }
 }
 @media only screen and (max-width: 390px){
@@ -204,15 +211,21 @@ html{
     #conteudo2, #conteudo3{
         font-size: 1rem;
     }
+    #container2 #box{
+        height: 45vh;
+    }
     #boxImg2, #boxImg3{
         width: 100%;
-        height: 13vh;
+        height: 25vh;
+    }
+    #imgBarra{
+        width: 90px;
     }
 }
 
 @media only screen and (max-width: 320px){
     html{
-        font-size: 8px;
+        font-size: 7px;
     }
     #boxImg2, #boxImg3{
         width: 100%;
@@ -221,6 +234,13 @@ html{
     #container3 img{
         width: 50vw;
     }
+    #container2 #box{
+        margin-bottom: 50px;
+    }
+    #imgBarra{
+        width: 100px;
+    }
+    
 }
 
 @media only screen and (max-width: 414px){
